@@ -4,7 +4,7 @@ git init
 git Branch -M main
 py -m venv venv
 venv\Scripts\activate
-pip install requests lxml autopip8
-## por si falta actualizar :v py install pip --upgrade
+pip install requests lxml autopep8
+## por si falta actualizar :v py -m pip install --upgrade pip
 py scrapper.py
 ## ejecuta el archivo :v 
